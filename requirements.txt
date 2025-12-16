@@ -1,0 +1,19 @@
+# Core LangChain packages - Compatible with Python 3.11.0
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-groq==0.2.1
+
+# API and Tools
+tavily-python==0.5.0
+requests==2.32.3
+python-dotenv==1.0.1
+
+# Data handling
+pydantic>=2.0.0,<3.0.0
+
+# Web interface
+streamlit==1.32.0
+
+# Optional but recommended for better performance
+aiohttp>=3.9.0
