@@ -168,7 +168,7 @@ def create_agent():
     
     # Initialize Groq LLM
     llm = ChatGroq(
-        model_name="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         temperature=0.7,
         max_tokens=2048,
         timeout=60,
